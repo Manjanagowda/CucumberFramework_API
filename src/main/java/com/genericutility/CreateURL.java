@@ -1,0 +1,16 @@
+package com.genericutility;
+
+public class CreateURL {
+
+public static final String baseURL = "https://api.github.com";
+	
+	public static String getBaseURL()
+	{
+		return baseURL;
+	}
+	
+	public static String baseURI(String endpoint)
+	{
+		return baseURL+endpoint;
+	}
+}
